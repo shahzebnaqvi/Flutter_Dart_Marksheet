@@ -9,5 +9,24 @@ void main() {
   percentage =  total/500 *100;
   print(total);
   print(percentage);
-
+  if(percentage>90){
+    print("Your Grade is A+");
+  }  
+  else if(percentage>80){
+    print("Your Grade is A");
+  }  
+  else if(percentage>70){
+    print("Your Grade is B+");
+  }  
+  else if(percentage>60){
+    print("Your Grade is B");
+  }  
+  else if(percentage>50){
+    print("Your Grade is C");
+  }  
+  else if(percentage>50){
+    print("Your Grade is D");
+  }  
+  else{
+    print("You are fail"); }
 }
