@@ -14,7 +14,7 @@ void main() {
   print('Urdu = ${urdu}');
   print('Physics = ${physics}');
   print('Science = ${science}');
-  print('Your Total Marks are ${total} Out of 500');
+  print('\nYour Total Marks are ${total} Out of 500');
   print('Your Percentage is ${percentage}');
   if(percentage>90){
     print("Your Grade is A+");
