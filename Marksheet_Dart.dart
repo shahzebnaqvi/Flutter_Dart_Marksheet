@@ -1,5 +1,6 @@
 void main() {
-  var maths, english, urdu, physics, science, total , percentage;
+  var name, maths, english, urdu, physics, science, total , percentage;
+  name  = "Syed Muhammad Shahzeb Naqvi";
   maths=90;
   english=70;
   urdu= 83; 
@@ -7,8 +8,14 @@ void main() {
   science=60;
   total = maths + english + urdu + physics + science ; 
   percentage =  total/500 *100;
-  print(total);
-  print(percentage);
+  print('Name = ${name}');
+  print('Maths = ${maths}');
+  print('English = ${english}');
+  print('Urdu = ${urdu}');
+  print('Physics = ${physics}');
+  print('Science = ${science}');
+  print('Your Total Marks are ${total} Out of 500');
+  print('Your Percentage is ${percentage}');
   if(percentage>90){
     print("Your Grade is A+");
   }  
